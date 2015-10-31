@@ -14,6 +14,8 @@ public class Main {
 
 		List<String> l = Arrays.asList("Hello", "World", "Print", "My", "List");
 		l.forEach(c);
+		
+		l.forEach(str -> System.out.println(">>>"+str));
 	}
 
 }
