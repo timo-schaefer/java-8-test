@@ -16,6 +16,11 @@ public class Person {
 	public String getLastname() {
 		return lastname;
 	}
+	
+	public static String getFirstName(Person person) {
+		return person.firstname;
+	}
+	
 
 	@Override
 	public String toString() {
